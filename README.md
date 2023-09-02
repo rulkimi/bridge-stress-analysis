@@ -14,6 +14,7 @@ The Three Hinged Arch Bridge Calculator is a C++ program designed for structural
 To illustrate the program's functionality, consider the following example problem with sample inputs:
 ![Sample of Three Hinged Arch Bridge problem](https://github.com/rulkimi/bridge-stress-analysis/raw/main/sample-input.jpg)
 
+
 | Parameter                     | Value        |
 | ----------------------------- | ------------ |
 | Length of span (m)            | 40           |
