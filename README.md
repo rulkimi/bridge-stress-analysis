@@ -11,29 +11,38 @@ The Three Hinged Arch Bridge Calculator is a C++ program designed for structural
 
 ## Sample Inputs
 
-To illustrate the program's functionality, here's an example problem with sample inputs:
+To illustrate the program's functionality, consider the following example problem with sample inputs:
 
-- Length of span (m): 40
-- Number of spans: 1
-- Height of the arch (m): 10
-- Number of sections: 4
-- Number of loads: 2
+| Parameter                     | Value        |
+| ----------------------------- | ------------ |
+| Length of span (m)            | 40           |
+| Number of spans               | 1            |
+| Height of the arch (m)        | 10           |
+| Number of sections            | 4            |
+| Number of loads               | 2            |
 
-**Load No. 1:**
-- Type: Point load
-- Magnitude: 150 kN
-- Position from left support: 15 m
+### Load No. 1
 
-**Load No. 2:**
-- Type: Distributed load
-- Magnitude: 120 kN/m
-- Position from left: 0 m
-- Position to right: 40 m
+| Parameter                     | Value        |
+| ----------------------------- | ------------ |
+| Type                          | Point load   |
+| Magnitude (kN)                | 150          |
+| Position from left support (m)| 15           |
+
+### Load No. 2
+
+| Parameter                     | Value        |
+| ----------------------------- | ------------ |
+| Type                          | Distributed load |
+| Magnitude (kN/m)              | 120          |
+| Position from left (m)        | 0            |
+| Position to right (m)         | 40           |
+
 
 ## Sample Output
 
 You can find the sample output in the [code section](https://github.com/rulkimi/bridge-stress-analysis/raw/main/sample-output.jpg) of this repository. These output files will showcase the calculated axial forces, shear forces, and bending moments for the provided sample inputs.
 
-Feel free to clone this repository or download the source code to explore and use the Three Hinged Arch Bridge Calculator for your own structural analysis needs. Contributions and improvements are welcome.
+Contributions and improvements are welcome.
 
 Happy bridge analysis!
